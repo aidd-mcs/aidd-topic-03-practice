@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Local environments and IDE
+.venv/
+venv/
+.idea/
+
+# Local database
+db.sqlite3
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
